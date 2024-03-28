@@ -1,4 +1,4 @@
-document.getElementById("preview-btn").addEventListener("click", function(event) {
+document.getElementById("preview-btn").addEventListener("click", function (event) {
     var toValue = document.getElementById("to").value;
     var fromValue = document.getElementById("from").value;
     var titleValue = document.getElementById("title").value;
@@ -12,7 +12,7 @@ document.getElementById("preview-btn").addEventListener("click", function(event)
     document.querySelector(".message-text").textContent = messageValue;
 });
 
-document.getElementById("save-btn").addEventListener("click", function(event) {
+document.getElementById("save-btn").addEventListener("click", function (event) {
     // event.preventDefault();
 
     var cards = localStorage.getItem("cards");
